@@ -141,7 +141,7 @@ header {
   padding: 0 100px;
 }
 
-#textoBoasvindas{
+#textoBoasvindas {
   max-width: 600px;
   padding-right: 100px;
 }
@@ -167,21 +167,21 @@ header {
   margin-top: 0;
 }
 
-#Cardapio{
+#Cardapio {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#Cardapio img{
-  padding: 36px 0 ;
+#Cardapio img {
+  padding: 36px 0;
 }
 
-#Cardapioi div img{
+#Cardapioi div img {
   padding: 0;
 }
 
-#Cardapio h2{
+#Cardapio h2 {
   color: #d03012;
   text-transform: uppercase;
   font-size: 28px;
@@ -189,7 +189,7 @@ header {
   margin: 0 0 7px 0;
 }
 
-.btncardapio{
+.btncardapio {
   text-decoration: none;
   color: #fff;
   background: #8eaa3e;
@@ -198,17 +198,17 @@ header {
   border-bottom: 2px solid #6b7552;
 }
 
-#promoPizzas{
+#promoPizzas {
   width: 100%;
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
 }
 
-#delivery{
+#delivery {
   max-height: 270px;
   background: #ebe7db;
   margin: 50px 0;
@@ -219,27 +219,94 @@ header {
   text-align: center;
 }
 
-
-
-#delivery h1{
+#delivery h1 {
   text-transform: uppercase;
   color: #bf0a26;
   font-weight: 900;
 }
 
-#delivery .sec-menu{
+#delivery .sec-menu {
   justify-content: center;
   padding: 40px;
 }
 
-#icone{
+#icone {
   display: flex;
-justify-content: center;
-gap: 70px;
-margin: 20px 0;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px 0;
 }
 
-.itens{
-max-width: 250px;
+.itens {
+  max-width: 250px;
+  text-align: center;
+}
+
+#Contato iframe{
+position: absolute;
+}
+
+#Contato{
+  display: flex;
+  justify-content: center;
+}
+
+.forms {
+  width: fit-content;
+  max-width: 100%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  display: block;
+  background: #fff;
+  padding: 48px 22px;
+  z-index: 2;
+  
+}
+
+.forms h2{
+color: #e7a200;
+font-size: 25px;
+line-height: 80px;
+margin: 0;
 text-align: center;
+}
+
+.forms p{
+  margin: 0;
+  margin-top: -12px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.forms small{
+  color: #333;
+
+font-size: 14px;
+}
+
+.forms input, .forms textarea{
+  padding: 0 16px;
+  line-height: 36px;
+  background: transparent;
+  border-radius: 12px;
+  border: solid 2px #999;
+  font-weight: 400;
+  font-size: 14px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.forms form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms input[type="submit"]{
+  background: #e7a200;
+  border-color: #e7a200;
+  width: 155px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
 }
