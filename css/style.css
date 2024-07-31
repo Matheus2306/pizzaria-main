@@ -334,7 +334,7 @@ footer #dados {
   margin: 0;
 }
 
-footer #dados:first-child` {
+footer #dados:first-child{
   margin-left: 20%;
 }
 
