@@ -124,7 +124,7 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
-  filter: drop-shadow(-2px 4px 6px black);
+  filter: drop-shadow(-2px 4px 6px black);  
   z-index: 10;
 }
 
