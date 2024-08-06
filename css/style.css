@@ -13,7 +13,7 @@ body {
 }
 
 .bgfundo {
-  background: url(../img/banner.jpg) no-repeat center/cover;
+  background: url(../img/image_background1920x1080.jpg) no-repeat center/cover;
   /* 
        background-color: blue;
        background-image: url(https://placehold.co/1920x1080); 
@@ -340,3 +340,8 @@ footer #dados:first-child{
   text-align: center;
   margin-top: 100px;
 }
+
+/* .othersocial{
+  display: flex;
+  flex-direction: column;
+} */
